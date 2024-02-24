@@ -48,7 +48,7 @@ class LinkedList {
       return null;
     }
     if (position === 1) {
-      this.head.data = data;
+      this.head.data = newData;
       return;
     }
     let current = this.head;
